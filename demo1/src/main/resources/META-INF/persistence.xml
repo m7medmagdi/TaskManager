@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+            <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+            <class>org.m7medmagdi.demo1.model.Task</class>
+            <class>org.m7medmagdi.demo1.model.User</class>
+            <properties>
+                <!-- Database connection properties -->
+                <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/moha"/>
+                <property name="jakarta.persistence.jdbc.user" value="root"/>
+                <property name="jakarta.persistence.jdbc.password" value="new_password6171"/>
+
+                <!-- EclipseLink properties -->
+                <property name="eclipselink.logging.level" value="FINE"/> <!-- Enable logging -->
+                <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/> <!-- Auto-create tables -->
+            </properties>
+    </persistence-unit>
+</persistence>
