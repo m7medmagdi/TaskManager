@@ -35,7 +35,7 @@ Before running the project, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/m7medmagdi/TaskManager
-   cd your-project
+   cd TaskManager
   
    
 2. Edit:  edite persistence.xml yo your Database Info
