@@ -52,6 +52,7 @@ Before running the project, ensure you have the following installed:
 4. ## Running the Application
    ```bash
     Copy the generated .war file (located in the target folder) to the webapps directory of your Apache Tomcat installation.
+    and you can test register and login and index frontend
 
     Alternatively, use your IDE (e.g., IntelliJ IDEA, Eclipse) to deploy the project directly to Tomcat
 
